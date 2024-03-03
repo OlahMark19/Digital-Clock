@@ -1,0 +1,35 @@
+body{
+    background-image: url(1271020-gorgerous-nyc-wallpaper-desktop-1920x1080-for-phones.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: hsl(0, 0%, 100%, 0.1);
+    width:100%
+}
+#btn2412{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0); 
+    border-radius: 20px;
+    border: solid white 2px;
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
